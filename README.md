@@ -178,7 +178,7 @@ Questions, bug reports, and reproducibility feedback are welcome through [GitHub
 
 If you use this work, cite the manuscript and identify the repository commit used:
 
-> Krishanu Karun (2026). *Exploring Topology Optimization as a Framework for Noise-Aware Quantum Circuits through Geometric Wells in the Parameter Landscape.* TOPAZ-V2 research repository. https://github.com/KrishanuKarun/TOPAZ-V2
+> Krishanu Karun (2026). *Exploring Topology Optimization as a Framework for Noise-Aware Quantum Circuits through Geometric Wells in the Parameter Landscape.* TOPAZ research repository. https://github.com/KrishanuKarun/TOPAZ-V2
 
 ## License
 
