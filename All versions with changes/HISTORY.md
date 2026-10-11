@@ -1,10 +1,10 @@
 # HISTORY AND THE COMPLETE ARC OF TOPAZ
 
 
-**Where the final paper is.** [`versions/QIP_Final_paper_1.pdf`](versions/QIP_Final_paper_1.tex)
+**The Final Paper** [`Versions/Final_paper_1.pdf`](Versions/Final_paper_1.pdf)
 
 (Version submitted to QIP). The master version it was cut from is
-`NPJ_Final_FINAL_5.pdf`.
+`Versions/NPJ_Final_FINAL_5.pdf`.
 
   
 **How to read it:** Each entry below says: *what it was* → *what was wrong* → *what we did about it*. Fixes are tagged so you can tell what is actually done versus still open:
@@ -302,4 +302,4 @@ I rebuilt everything so that the framework — and its own scoring — can never
 
 The early drafts of this paper thought they were setting the paradigm for quantum computing. The final one is more modest, on purpose: two structural results, and it says plainly where the mechanism doesn't fire yet and what I haven't implemented. It runs 8-qubit benchmarks because that's the scale the theory honestly supports. Smaller claims. All of them defensible. That's the upgrade.
 
-**The final paper is `versions/QIP_Final_paper_1.pdf`.**
+**The final paper is `Versions/Final_paper_1.pdf`.**
