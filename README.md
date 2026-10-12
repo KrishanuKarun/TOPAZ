@@ -43,7 +43,7 @@ See the final manuscript for protocols, uncertainty conventions, comparisons, an
 ## Repository structure
 
 ```text
-TOPAZ-V2/
+TOPAZ/
 ├── FINAL PAPER/
 │   ├── Final_paper_1.pdf                 # Final manuscript
 │   └── Final_paper_1.tex                 # Manuscript source
@@ -77,7 +77,7 @@ Use a Python 3 virtual environment. The experiment scripts import NumPy, SciPy, 
 
 ```bash
 git clone https://github.com/KrishanuKarun/TOPAZ-V2.git
-cd TOPAZ-V2
+cd TOPAZ
 
 python3 -m venv .venv
 source .venv/bin/activate
@@ -157,12 +157,6 @@ Output directories are relative to the current working directory. VQE text logs 
 
 For a reproducible run, retain the exact repository commit, command line, random seeds, package versions, and output files. For hardware, also retain backend, calibration context, and job identifiers where available.
 
-**Current repository limitations:**
-
-- No pinned dependency environment, automated test suite, or bundled raw-result dataset is present in this tree.
-- The LaTeX source references `figures/*.png` files that are not included here. Use the committed PDF to read the paper; compiling the source requires those figure assets.
-- The manuscript references a [Zenodo archive](https://doi.org/10.5281/zenodo.19214449) for supporting material. That archive is separate from the contents of this repository.
-- Script defaults and reduced examples are not substitutes for the full experimental protocols in the manuscript.
 
 ## Development history and AI transparency
 
@@ -178,7 +172,7 @@ Questions, bug reports, and reproducibility feedback are welcome through [GitHub
 
 If you use this work, cite the manuscript and identify the repository commit used:
 
-> Krishanu Karun (2026). *Exploring Topology Optimization as a Framework for Noise-Aware Quantum Circuits through Geometric Wells in the Parameter Landscape.* TOPAZ research repository. https://github.com/KrishanuKarun/TOPAZ-V2
+> Krishanu Karun (2026). *Exploring Topology Optimization as a Framework for Noise-Aware Quantum Circuits through Geometric Wells in the Parameter Landscape.* TOPAZ research repository. https://github.com/KrishanuKarun/TOPAZ
 
 ## License
 
